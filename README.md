@@ -4,9 +4,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Spec%20v1-blue)](https://agentskills.io)
 
+![Plugins](https://img.shields.io/badge/plugins-10-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Claude Code](https://img.shields.io/badge/Claude_Code-%E2%9C%93-D97757)
+![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-%E2%9C%93-10A37F)
+![Cursor](https://img.shields.io/badge/Cursor-%E2%9C%93-000000)
+![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-%E2%9C%93-8E75B9)
+
 Production-ready [Agent Skills](https://agentskills.io) for global creators — video downloaders, AI generation, OCR and cross-platform trending search, powered by [Redfox Data](https://redfox.hk).
 
 One repository, four platforms: **Claude Code**, **OpenAI Codex**, **Cursor**, and **Gemini CLI**.
+
+## ⚡ Install in Claude Code
+
+**1. Add the marketplace** (one time):
+
+```text
+/plugin marketplace add redfox-data/redfox-agent-plugins
+```
+
+**2. Install any plugin** (swap in the plugin ID you want):
+
+```text
+/plugin install youtube-video-downloader@redfox-agent-plugins
+```
+
+> No approval or publisher account needed — any public GitHub marketplace installs directly. On **OpenAI Codex**, **Cursor**, or **Gemini CLI**? See [Quick Start](#quick-start).
 
 ## Plugins
 
