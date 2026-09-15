@@ -1,0 +1,44 @@
+{
+  "name": "twitter-video-downloader",
+  "version": "1.0.0",
+  "description": "Watermark-free X/Twitter video downloader with direct MP4 links",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/twitter-video-downloader?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "twitter",
+    "x",
+    "video",
+    "downloader",
+    "mp4",
+    "watermark-free"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X (Twitter) Video Downloader",
+    "developerName": "Redfox Data",
+    "shortDescription": "Watermark-free X/Twitter video downloader with direct MP4 links",
+    "longDescription": "Paste any X (Twitter) video URL and get a watermark-free direct download link in MP4 format. Works with regular tweets, threads, and quoted videos. Ideal for archiving viral content, saving memes, or backing up your own posts.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1DA1F2",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Watermark-free X/Twitter video downloader with direct MP4 links"
+    ],
+    "websiteURL": "https://redfox.hk/",
+    "privacyPolicyURL": "https://redfox.hk/privacy",
+    "termsOfServiceURL": "https://redfox.hk/terms",
+    "screenshots": []
+  }
+}

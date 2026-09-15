@@ -1,0 +1,128 @@
+{
+  "name": "redfox-agent-plugins",
+  "interface": {
+    "displayName": "Redfox Data (Official)"
+  },
+  "plugins": [
+    {
+      "name": "youtube-video-downloader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/youtube-video-downloader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "instagram-video-downloader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/instagram-video-downloader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "twitter-video-downloader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/twitter-video-downloader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "tiktok-video-downloader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tiktok-video-downloader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "youtube-digest",
+      "source": {
+        "source": "local",
+        "path": "./plugins/youtube-digest"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "image-gen",
+      "source": {
+        "source": "local",
+        "path": "./plugins/image-gen"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
+    },
+    {
+      "name": "seedance-video-gen",
+      "source": {
+        "source": "local",
+        "path": "./plugins/seedance-video-gen"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
+    },
+    {
+      "name": "pdf-image-text-extractor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pdf-image-text-extractor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "overseas-trending-search",
+      "source": {
+        "source": "local",
+        "path": "./plugins/overseas-trending-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data Analysis"
+    },
+    {
+      "name": "account-video-downloader",
+      "source": {
+        "source": "local",
+        "path": "./plugins/account-video-downloader"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

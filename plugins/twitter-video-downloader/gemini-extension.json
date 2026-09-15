@@ -1,0 +1,13 @@
+{
+  "name": "twitter-video-downloader",
+  "version": "1.0.0",
+  "description": "Watermark-free X/Twitter video downloader with direct MP4 links",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Redfox API Key",
+      "description": "Get your API key from https://redfox.hk/settings/api-keys?source=gemini-cli",
+      "envVar": "REDFOX_API_KEY"
+    }
+  ]
+}

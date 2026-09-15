@@ -1,0 +1,13 @@
+{
+  "name": "youtube-digest",
+  "version": "1.0.0",
+  "description": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Redfox API Key",
+      "description": "Get your API key from https://redfox.hk/settings/api-keys?source=gemini-cli",
+      "envVar": "REDFOX_API_KEY"
+    }
+  ]
+}

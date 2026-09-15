@@ -1,0 +1,13 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "Watermark-free YouTube video downloader with multi-resolution direct links",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Redfox API Key",
+      "description": "Get your API key from https://redfox.hk/settings/api-keys?source=gemini-cli",
+      "envVar": "REDFOX_API_KEY"
+    }
+  ]
+}

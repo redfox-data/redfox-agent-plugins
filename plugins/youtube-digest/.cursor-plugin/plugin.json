@@ -1,0 +1,23 @@
+{
+  "name": "youtube-digest",
+  "description": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/youtube-digest?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "youtube",
+    "transcript",
+    "subtitles",
+    "digest",
+    "text",
+    "excel"
+  ],
+  "logo": "assets/logo.svg"
+}

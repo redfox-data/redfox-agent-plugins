@@ -1,0 +1,45 @@
+{
+  "name": "overseas-trending-search",
+  "version": "1.0.0",
+  "description": "Cross-platform trending search across X, TikTok and YouTube in one query",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/overseas-trending-search?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "trending",
+    "search",
+    "x",
+    "twitter",
+    "tiktok",
+    "youtube",
+    "cross-platform"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Overseas Trending Search",
+    "developerName": "Redfox Data",
+    "shortDescription": "Cross-platform trending search across X, TikTok and YouTube in one query",
+    "longDescription": "Search any keyword (Chinese/English/other) across X (Twitter), TikTok and YouTube at once. Returns each platform's Top N trending posts in a unified list (platform/title/author/views/likes/comments/date/link). Language-aware ranking: Chinese keywords surface Chinese content first, English keywords surface English content first. Grouped terminal table + CSV export + interactive HTML report (card/table views).",
+    "category": "Data Analysis",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#3B82F6",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Cross-platform trending search across X, TikTok and YouTube in one query"
+    ],
+    "websiteURL": "https://redfox.hk/",
+    "privacyPolicyURL": "https://redfox.hk/privacy",
+    "termsOfServiceURL": "https://redfox.hk/terms",
+    "screenshots": []
+  }
+}

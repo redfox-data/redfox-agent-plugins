@@ -1,0 +1,44 @@
+{
+  "name": "image-gen",
+  "version": "1.0.0",
+  "description": "Text-to-image and image-to-image generation powered by GPT-image-2",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/image-gen?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "ai",
+    "image",
+    "generation",
+    "text-to-image",
+    "image-to-image",
+    "gpt-image"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Image Generator (GPT-image-2)",
+    "developerName": "Redfox Data",
+    "shortDescription": "Text-to-image and image-to-image generation powered by GPT-image-2",
+    "longDescription": "AI image generator using OpenAI's latest gpt-image-2 model. Supports text-to-image and image-to-image modes (up to 2 reference images), aspect ratio control (1:1, 16:9, 9:16, 4:3, 3:4, 21:9, etc.), resolution tiers (1k/2k/4k), and batch generation up to 4 images per request. PNG output.",
+    "category": "Creative",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#10A37F",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Text-to-image and image-to-image generation powered by GPT-image-2"
+    ],
+    "websiteURL": "https://redfox.hk/",
+    "privacyPolicyURL": "https://redfox.hk/privacy",
+    "termsOfServiceURL": "https://redfox.hk/terms",
+    "screenshots": []
+  }
+}

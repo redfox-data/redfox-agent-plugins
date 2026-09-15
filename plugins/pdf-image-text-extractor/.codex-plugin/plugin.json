@@ -1,0 +1,45 @@
+{
+  "name": "pdf-image-text-extractor",
+  "version": "1.0.0",
+  "description": "Extract text from PDFs and images with format preservation and table detection",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/pdf-image-text-extractor?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "pdf",
+    "ocr",
+    "image",
+    "text",
+    "extraction",
+    "table",
+    "batch"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PDF & Image OCR Text Extractor",
+    "developerName": "Redfox Data",
+    "shortDescription": "Extract text from PDFs and images with format preservation and table detection",
+    "longDescription": "OCR text extractor for PDFs and images. Zero extra dependencies: scanned PDFs are auto-rendered to images and processed by AI vision (no tesseract/rapidocr needed); tables extracted via pymupdf's built-in find_tables (no pdfplumber needed); supports batch directory processing (PDFs + images in one shot). Preserves original formatting and outputs structured Markdown.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#F59E0B",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Extract text from PDFs and images with format preservation and table detection"
+    ],
+    "websiteURL": "https://redfox.hk/",
+    "privacyPolicyURL": "https://redfox.hk/privacy",
+    "termsOfServiceURL": "https://redfox.hk/terms",
+    "screenshots": []
+  }
+}

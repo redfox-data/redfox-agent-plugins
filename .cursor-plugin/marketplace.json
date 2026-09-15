@@ -1,0 +1,153 @@
+{
+  "name": "redfox-agent-plugins",
+  "owner": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk"
+  },
+  "metadata": {
+    "description": "Redfox Data skills for global creators: video downloaders, AI generation, OCR, cross-platform trending search.",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "youtube-video-downloader",
+      "source": "youtube-video-downloader",
+      "description": "Watermark-free YouTube video downloader with multi-resolution direct links",
+      "category": "Productivity",
+      "tags": [
+        "youtube",
+        "video",
+        "downloader",
+        "watermark-free",
+        "mp4"
+      ],
+      "logo": "plugins/youtube-video-downloader/assets/logo.svg"
+    },
+    {
+      "name": "instagram-video-downloader",
+      "source": "instagram-video-downloader",
+      "description": "Watermark-free Instagram Reel and video downloader",
+      "category": "Productivity",
+      "tags": [
+        "instagram",
+        "video",
+        "downloader",
+        "reel",
+        "ig"
+      ],
+      "logo": "plugins/instagram-video-downloader/assets/logo.svg"
+    },
+    {
+      "name": "twitter-video-downloader",
+      "source": "twitter-video-downloader",
+      "description": "Watermark-free X/Twitter video downloader with direct MP4 links",
+      "category": "Productivity",
+      "tags": [
+        "twitter",
+        "x",
+        "video",
+        "downloader",
+        "mp4"
+      ],
+      "logo": "plugins/twitter-video-downloader/assets/logo.svg"
+    },
+    {
+      "name": "tiktok-video-downloader",
+      "source": "tiktok-video-downloader",
+      "description": "Watermark-free TikTok video downloader with batch support",
+      "category": "Productivity",
+      "tags": [
+        "tiktok",
+        "video",
+        "downloader",
+        "batch",
+        "watermark-free"
+      ],
+      "logo": "plugins/tiktok-video-downloader/assets/logo.svg"
+    },
+    {
+      "name": "youtube-digest",
+      "source": "youtube-digest",
+      "description": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
+      "category": "Productivity",
+      "tags": [
+        "youtube",
+        "transcript",
+        "subtitles",
+        "digest",
+        "text"
+      ],
+      "logo": "plugins/youtube-digest/assets/logo.svg"
+    },
+    {
+      "name": "image-gen",
+      "source": "image-gen",
+      "description": "Text-to-image and image-to-image generation powered by GPT-image-2",
+      "category": "Creative",
+      "tags": [
+        "ai",
+        "image",
+        "generation",
+        "text-to-image",
+        "image-to-image"
+      ],
+      "logo": "plugins/image-gen/assets/logo.svg"
+    },
+    {
+      "name": "seedance-video-gen",
+      "source": "seedance-video-gen",
+      "description": "Text-to-video generation with resolution, aspect ratio and duration control",
+      "category": "Creative",
+      "tags": [
+        "ai",
+        "video",
+        "generation",
+        "text-to-video",
+        "seedance"
+      ],
+      "logo": "plugins/seedance-video-gen/assets/logo.svg"
+    },
+    {
+      "name": "pdf-image-text-extractor",
+      "source": "pdf-image-text-extractor",
+      "description": "Extract text from PDFs and images with format preservation and table detection",
+      "category": "Productivity",
+      "tags": [
+        "pdf",
+        "ocr",
+        "image",
+        "text",
+        "extraction"
+      ],
+      "logo": "plugins/pdf-image-text-extractor/assets/logo.svg"
+    },
+    {
+      "name": "overseas-trending-search",
+      "source": "overseas-trending-search",
+      "description": "Cross-platform trending search across X, TikTok and YouTube in one query",
+      "category": "Data Analysis",
+      "tags": [
+        "trending",
+        "search",
+        "x",
+        "twitter",
+        "tiktok"
+      ],
+      "logo": "plugins/overseas-trending-search/assets/logo.svg"
+    },
+    {
+      "name": "account-video-downloader",
+      "source": "account-video-downloader",
+      "description": "Batch-download all videos from an account's homepage (YouTube, TikTok, Douyin, Kuaishou, Bilibili)",
+      "category": "Productivity",
+      "tags": [
+        "account",
+        "video",
+        "downloader",
+        "batch",
+        "youtube"
+      ],
+      "logo": "plugins/account-video-downloader/assets/logo.svg"
+    }
+  ]
+}

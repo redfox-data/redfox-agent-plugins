@@ -1,0 +1,22 @@
+{
+  "name": "seedance-video-gen",
+  "description": "Text-to-video generation with resolution, aspect ratio and duration control",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/seedance-video-gen?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "ai",
+    "video",
+    "generation",
+    "text-to-video",
+    "seedance",
+    "mp4"
+  ]
+}

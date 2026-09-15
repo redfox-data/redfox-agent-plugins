@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "overseas-trending-search",
+  "version": "1.0.0",
+  "description": "Cross-platform trending search across X, TikTok and YouTube in one query",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/overseas-trending-search?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "trending",
+    "search",
+    "x",
+    "twitter",
+    "tiktok",
+    "youtube",
+    "cross-platform"
+  ]
+}

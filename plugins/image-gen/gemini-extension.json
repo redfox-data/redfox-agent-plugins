@@ -1,0 +1,13 @@
+{
+  "name": "image-gen",
+  "version": "1.0.0",
+  "description": "Text-to-image and image-to-image generation powered by GPT-image-2",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Redfox API Key",
+      "description": "Get your API key from https://redfox.hk/settings/api-keys?source=gemini-cli",
+      "envVar": "REDFOX_API_KEY"
+    }
+  ]
+}

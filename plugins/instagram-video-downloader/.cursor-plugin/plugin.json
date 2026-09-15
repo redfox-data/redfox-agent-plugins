@@ -1,0 +1,23 @@
+{
+  "name": "instagram-video-downloader",
+  "description": "Watermark-free Instagram Reel and video downloader",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/instagram-video-downloader?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "instagram",
+    "video",
+    "downloader",
+    "reel",
+    "ig",
+    "watermark-free"
+  ],
+  "logo": "assets/logo.svg"
+}

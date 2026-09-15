@@ -1,0 +1,44 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "Watermark-free YouTube video downloader with multi-resolution direct links",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/youtube-video-downloader?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "youtube",
+    "video",
+    "downloader",
+    "watermark-free",
+    "mp4",
+    "shorts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube Video Downloader",
+    "developerName": "Redfox Data",
+    "shortDescription": "Watermark-free YouTube video downloader with multi-resolution direct links",
+    "longDescription": "Paste any YouTube video URL (regular videos, Shorts, or youtu.be short links) and get watermark-free direct download links instantly. Returns multiple resources including video files (mp4/webm) and audio files (m4a) at various resolutions, with full descriptions and cover URLs preserved.",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#FF0000",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Watermark-free YouTube video downloader with multi-resolution direct links"
+    ],
+    "websiteURL": "https://redfox.hk/",
+    "privacyPolicyURL": "https://redfox.hk/privacy",
+    "termsOfServiceURL": "https://redfox.hk/terms",
+    "screenshots": []
+  }
+}

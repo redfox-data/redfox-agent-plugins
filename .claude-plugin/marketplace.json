@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "redfox-agent-plugins",
+  "description": "Redfox Data skills for global creators: video downloaders, AI generation, OCR, cross-platform trending search. Powered by https://redfox.hk",
+  "owner": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "youtube-video-downloader",
+      "source": "./plugins/youtube-video-downloader",
+      "description": "Watermark-free YouTube video downloader with multi-resolution direct links",
+      "category": "Productivity",
+      "tags": [
+        "youtube",
+        "video",
+        "downloader",
+        "watermark-free",
+        "mp4"
+      ]
+    },
+    {
+      "name": "instagram-video-downloader",
+      "source": "./plugins/instagram-video-downloader",
+      "description": "Watermark-free Instagram Reel and video downloader",
+      "category": "Productivity",
+      "tags": [
+        "instagram",
+        "video",
+        "downloader",
+        "reel",
+        "ig"
+      ]
+    },
+    {
+      "name": "twitter-video-downloader",
+      "source": "./plugins/twitter-video-downloader",
+      "description": "Watermark-free X/Twitter video downloader with direct MP4 links",
+      "category": "Productivity",
+      "tags": [
+        "twitter",
+        "x",
+        "video",
+        "downloader",
+        "mp4"
+      ]
+    },
+    {
+      "name": "tiktok-video-downloader",
+      "source": "./plugins/tiktok-video-downloader",
+      "description": "Watermark-free TikTok video downloader with batch support",
+      "category": "Productivity",
+      "tags": [
+        "tiktok",
+        "video",
+        "downloader",
+        "batch",
+        "watermark-free"
+      ]
+    },
+    {
+      "name": "youtube-digest",
+      "source": "./plugins/youtube-digest",
+      "description": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
+      "category": "Productivity",
+      "tags": [
+        "youtube",
+        "transcript",
+        "subtitles",
+        "digest",
+        "text"
+      ]
+    },
+    {
+      "name": "image-gen",
+      "source": "./plugins/image-gen",
+      "description": "Text-to-image and image-to-image generation powered by GPT-image-2",
+      "category": "Creative",
+      "tags": [
+        "ai",
+        "image",
+        "generation",
+        "text-to-image",
+        "image-to-image"
+      ]
+    },
+    {
+      "name": "seedance-video-gen",
+      "source": "./plugins/seedance-video-gen",
+      "description": "Text-to-video generation with resolution, aspect ratio and duration control",
+      "category": "Creative",
+      "tags": [
+        "ai",
+        "video",
+        "generation",
+        "text-to-video",
+        "seedance"
+      ]
+    },
+    {
+      "name": "pdf-image-text-extractor",
+      "source": "./plugins/pdf-image-text-extractor",
+      "description": "Extract text from PDFs and images with format preservation and table detection",
+      "category": "Productivity",
+      "tags": [
+        "pdf",
+        "ocr",
+        "image",
+        "text",
+        "extraction"
+      ]
+    },
+    {
+      "name": "overseas-trending-search",
+      "source": "./plugins/overseas-trending-search",
+      "description": "Cross-platform trending search across X, TikTok and YouTube in one query",
+      "category": "Data Analysis",
+      "tags": [
+        "trending",
+        "search",
+        "x",
+        "twitter",
+        "tiktok"
+      ]
+    },
+    {
+      "name": "account-video-downloader",
+      "source": "./plugins/account-video-downloader",
+      "description": "Batch-download all videos from an account's homepage (YouTube, TikTok, Douyin, Kuaishou, Bilibili)",
+      "category": "Productivity",
+      "tags": [
+        "account",
+        "video",
+        "downloader",
+        "batch",
+        "youtube"
+      ]
+    }
+  ]
+}

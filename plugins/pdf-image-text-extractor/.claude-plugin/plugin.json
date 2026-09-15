@@ -1,0 +1,23 @@
+{
+  "name": "pdf-image-text-extractor",
+  "description": "Extract text from PDFs and images with format preservation and table detection",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/pdf-image-text-extractor?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "pdf",
+    "ocr",
+    "image",
+    "text",
+    "extraction",
+    "table",
+    "batch"
+  ]
+}

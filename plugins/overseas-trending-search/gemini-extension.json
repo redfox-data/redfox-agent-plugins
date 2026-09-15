@@ -1,0 +1,13 @@
+{
+  "name": "overseas-trending-search",
+  "version": "1.0.0",
+  "description": "Cross-platform trending search across X, TikTok and YouTube in one query",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Redfox API Key",
+      "description": "Get your API key from https://redfox.hk/settings/api-keys?source=gemini-cli",
+      "envVar": "REDFOX_API_KEY"
+    }
+  ]
+}

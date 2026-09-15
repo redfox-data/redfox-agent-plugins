@@ -1,0 +1,22 @@
+{
+  "name": "twitter-video-downloader",
+  "description": "Watermark-free X/Twitter video downloader with direct MP4 links",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redfox Data",
+    "email": "support@redfox.hk",
+    "url": "https://redfox.hk"
+  },
+  "homepage": "https://redfox.hk/skills/twitter-video-downloader?source=agent-plugins",
+  "repository": "https://github.com/redfox-data/redfox-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "redfox",
+    "twitter",
+    "x",
+    "video",
+    "downloader",
+    "mp4",
+    "watermark-free"
+  ]
+}
