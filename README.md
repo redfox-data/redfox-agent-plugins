@@ -33,18 +33,18 @@ One repository, four platforms: **Claude Code**, **OpenAI Codex**, **Cursor**, a
 
 ## Plugins
 
-| Plugin | ID | Description |
-|---|---|---|
-| [YouTube Video Downloader](plugins/youtube-video-downloader/) | `youtube-video-downloader` | Watermark-free YouTube video downloader with multi-resolution direct links (videos, Shorts, youtu.be) |
-| [Instagram Video Downloader](plugins/instagram-video-downloader/) | `instagram-video-downloader` | Watermark-free Instagram Reel and video downloader |
-| [X (Twitter) Video Downloader](plugins/twitter-video-downloader/) | `twitter-video-downloader` | Watermark-free X (Twitter) video downloader |
-| [TikTok Video Downloader](plugins/tiktok-video-downloader/) | `tiktok-video-downloader` | Watermark-free TikTok video downloader |
-| [YouTube Transcript Extractor](plugins/youtube-digest/) | `youtube-digest` | Extract transcripts/captions from any YouTube video, auto-translate to your language, export to Excel/Markdown |
-| [AI Image Generator](plugins/image-gen/) | `image-gen` | Text-to-image and image-to-image generation powered by gpt-image-2 |
-| [AI Video Generator (Seedance)](plugins/seedance-video-gen/) | `seedance-video-gen` | Text-to-video generation powered by Seedance 2.0 with resolution/ratio/duration control |
-| [PDF & Image Text Extractor](plugins/pdf-image-text-extractor/) | `pdf-image-text-extractor` | OCR text extraction from PDFs and images with format preserved, table structuring, batch directory processing |
-| [Overseas Trending Search](plugins/overseas-trending-search/) | `overseas-trending-search` | Search any keyword across X (Twitter), TikTok and YouTube at once, get unified Top-N trending posts with HTML report |
-| [Account Video Downloader](plugins/account-video-downloader/) | `account-video-downloader` | Batch-extract videos from account homepages across YouTube, Douyin, Kuaishou and Bilibili |
+| Plugin                                                            | ID                           | Description                                                                                                          |
+| ----------------------------------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [YouTube Video Downloader](plugins/youtube-video-downloader/)     | `youtube-video-downloader`   | Watermark-free YouTube video downloader with multi-resolution direct links (videos, Shorts, youtu.be)                |
+| [Instagram Video Downloader](plugins/instagram-video-downloader/) | `instagram-video-downloader` | Watermark-free Instagram Reel and video downloader                                                                   |
+| [X (Twitter) Video Downloader](plugins/twitter-video-downloader/) | `twitter-video-downloader`   | Watermark-free X (Twitter) video downloader                                                                          |
+| [TikTok Video Downloader](plugins/tiktok-video-downloader/)       | `tiktok-video-downloader`    | Watermark-free TikTok video downloader                                                                               |
+| [YouTube Transcript Extractor](plugins/youtube-digest/)           | `youtube-digest`             | Extract transcripts/captions from any YouTube video, auto-translate to your language, export to Excel/Markdown       |
+| [AI Image Generator](plugins/image-gen/)                          | `image-gen`                  | Text-to-image and image-to-image generation powered by gpt-image-2                                                   |
+| [AI Video Generator (Seedance)](plugins/seedance-video-gen/)      | `seedance-video-gen`         | Text-to-video generation powered by Seedance 2.0 with resolution/ratio/duration control                              |
+| [PDF & Image Text Extractor](plugins/pdf-image-text-extractor/)   | `pdf-image-text-extractor`   | OCR text extraction from PDFs and images with format preserved, table structuring, batch directory processing        |
+| [Overseas Trending Search](plugins/overseas-trending-search/)     | `overseas-trending-search`   | Search any keyword across X (Twitter), TikTok and YouTube at once, get unified Top-N trending posts with HTML report |
+| [Account Video Downloader](plugins/account-video-downloader/)     | `account-video-downloader`   | Batch-extract videos from account homepages across YouTube, Douyin, Kuaishou and Bilibili                            |
 
 ## Quick Start
 
@@ -68,6 +68,7 @@ See [docs/API_KEY.md](docs/API_KEY.md) for details.
 # Install a plugin
 /plugin install youtube-video-downloader@redfox-agent-plugins
 ```
+
 </details>
 
 <details>
@@ -84,6 +85,7 @@ Or clone manually:
 git clone https://github.com/redfox-data/redfox-agent-plugins.git
 cp -R redfox-agent-plugins/plugins/youtube-video-downloader ~/.codex/plugins/
 ```
+
 </details>
 
 <details>
@@ -95,6 +97,7 @@ Install via the [Cursor Plugin Marketplace](https://cursor.com/marketplace) (sea
 git clone https://github.com/redfox-data/redfox-agent-plugins.git
 cp -R redfox-agent-plugins/plugins/youtube-video-downloader ~/.cursor/plugins/
 ```
+
 </details>
 
 <details>
@@ -105,6 +108,7 @@ git clone https://github.com/redfox-data/redfox-agent-plugins.git
 cd redfox-agent-plugins/plugins/youtube-video-downloader
 gemini extensions install .
 ```
+
 </details>
 
 Full instructions: [docs/INSTALL.md](docs/INSTALL.md).
@@ -160,6 +164,6 @@ redfox-agent-plugins/
 
 ## Support
 
-- Website: https://redfox.hk
-- Skills directory: https://redfox.hk/skills
+- Website: https://redfox.hk/?source=agent_plugins
+- Skills directory: https://redfox.hk/skills/?source=agent_plugins
 - Email: support@redfox.hk

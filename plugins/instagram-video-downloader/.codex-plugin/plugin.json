@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/instagram-video-downloader?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/instagram-video-downloader?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -26,16 +26,10 @@
     "shortDescription": "Watermark-free Instagram Reel and video downloader",
     "longDescription": "Paste any Instagram video or Reel URL and get a watermark-free direct download link. Supports public posts, Reels, and IGTV. Perfect for saving content for offline viewing, remixing, or archiving before it gets deleted.",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#E1306C",
     "logo": "./assets/logo.svg",
-    "defaultPrompt": [
-      "Watermark-free Instagram Reel and video downloader"
-    ],
+    "defaultPrompt": ["Watermark-free Instagram Reel and video downloader"],
     "websiteURL": "https://redfox.hk/",
     "privacyPolicyURL": "https://redfox.hk/privacy",
     "termsOfServiceURL": "https://redfox.hk/terms",

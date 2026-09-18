@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/youtube-digest?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/youtube-digest?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -26,11 +26,7 @@
     "shortDescription": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
     "longDescription": "Paste any YouTube URL or video ID and extract the full transcript. Chinese subtitles preferred; falls back to English with auto-translation to Chinese if needed. Output as clean text without timestamps by default, or as a timestamped table exportable to Excel. Ideal for video notes, summaries, translations, and secondary creation.",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#FF0000",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [

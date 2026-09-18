@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/seedance-video-gen?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/seedance-video-gen?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -26,11 +26,7 @@
     "shortDescription": "Text-to-video generation with resolution, aspect ratio and duration control",
     "longDescription": "AI video generator powered by Seedance 2.0 model. Input a keyword or description to generate an MP4 video. Supports text-to-video, resolution/aspect-ratio/duration control, and preset virtual human references for consistent character appearance across videos.",
     "category": "Creative",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#7C3AED",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [

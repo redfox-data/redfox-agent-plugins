@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/twitter-video-downloader?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/twitter-video-downloader?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [

@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/pdf-image-text-extractor?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/pdf-image-text-extractor?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -27,11 +27,7 @@
     "shortDescription": "Extract text from PDFs and images with format preservation and table detection",
     "longDescription": "OCR text extractor for PDFs and images. Zero extra dependencies: scanned PDFs are auto-rendered to images and processed by AI vision (no tesseract/rapidocr needed); tables extracted via pymupdf's built-in find_tables (no pdfplumber needed); supports batch directory processing (PDFs + images in one shot). Preserves original formatting and outputs structured Markdown.",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#F59E0B",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [

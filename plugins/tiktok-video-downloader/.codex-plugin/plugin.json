@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/tiktok-video-downloader?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/tiktok-video-downloader?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -25,11 +25,7 @@
     "shortDescription": "Watermark-free TikTok video downloader with batch support",
     "longDescription": "Paste single or batch TikTok URLs and get watermark-free direct download links. Automatic URL validation, supports multiple links in one request. Perfect for creators saving their own content, researchers archiving trends, or editors collecting reference material.",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#000000",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [

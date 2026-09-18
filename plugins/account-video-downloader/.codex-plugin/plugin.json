@@ -7,7 +7,7 @@
     "email": "support@redfox.hk",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/account-video-downloader?source=agent-plugins",
+  "homepage": "https://redfox.hk/skills/account-video-downloader?source=agent_plugins",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -28,11 +28,7 @@
     "shortDescription": "Batch-download all videos from an account's homepage (YouTube, TikTok, Douyin, Kuaishou, Bilibili)",
     "longDescription": "Input a platform name and account ID/URL to auto-fetch all videos from that account's homepage. Supports YouTube, TikTok, Douyin, Kuaishou, and Bilibili. Parses watermark-free direct download links and enables batch downloading. Use cases: competitor content analysis, backing up your own channel, archiving creator works before deletion, offline course/tutorial collections, influencer due-diligence before collaboration.",
     "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Read",
-      "Write"
-    ],
+    "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#8B5CF6",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [

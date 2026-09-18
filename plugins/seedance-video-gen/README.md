@@ -17,23 +17,26 @@ AI video generator powered by Seedance 2.0 model. Input a keyword or description
 
 ### 1. Get Your Redfox API Key
 
-Sign up at **<https://redfox.hk/settings/api-keys?source=agent-plugins>** and copy your API key (starts with `ak_` or `ark_`).
+Sign up at **<https://redfox.hk/settings/api-keys?source=agent_plugins>** and copy your API key (starts with `ak_` or `ark_`).
 
 ### 2. Configure the API Key
 
 Choose one method:
 
 **Method A — Environment variable (recommended):**
+
 ```bash
 export REDFOX_API_KEY=ak_your_key_here
 ```
 
 **Method B — Config file:**
+
 ```bash
 mkdir -p ~/.redfox && echo '{"api_key":"ak_your_key_here"}' > ~/.redfox/config.json
 ```
 
 **Method C — Per-command flag:**
+
 ```bash
 python3 scripts/xxx.py "<args>" --api-key ak_your_key_here
 ```
@@ -49,6 +52,7 @@ Pick your client:
 /plugin marketplace add redfox-data/redfox-agent-plugins
 /plugin install seedance-video-gen@redfox-agent-plugins
 ```
+
 </details>
 
 <details>
@@ -58,6 +62,7 @@ Pick your client:
 codex plugin marketplace add redfox-data/redfox-agent-plugins
 codex plugin add seedance-video-gen@redfox-agent-plugins
 ```
+
 </details>
 
 <details>
@@ -76,16 +81,20 @@ gemini extensions install https://github.com/redfox-data/redfox-agent-plugins --
 # or with Antigravity:
 agy plugin install https://github.com/redfox-data/redfox-agent-plugins/plugins/seedance-video-gen
 ```
+
 </details>
 
 <details>
 <summary><b>Any Agent Skills compatible client</b></summary>
 
 Copy the skill folder into your client's skills directory:
+
 ```bash
 cp -r plugins/seedance-video-gen/skills/seedance-video-gen ~/.agents/skills/
 ```
+
 Compatible with 30+ clients including Junie, Roo Code, GitHub Copilot, VS Code, OpenHands, Goose, Tabnine, and more. See <https://agentskills.io>.
+
 </details>
 
 ## Usage
