@@ -3,6 +3,7 @@
 [![Validate](https://github.com/redfox-data/redfox-agent-plugins/actions/workflows/validate.yml/badge.svg)](https://github.com/redfox-data/redfox-agent-plugins/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Spec%20v1-blue)](https://agentskills.io)
+[![HOL Guard Scanner](https://img.shields.io/badge/HOL%20Guard-passing-00a67e)](https://github.com/hashgraph-online/hol-guard)
 
 ![Plugins](https://img.shields.io/badge/plugins-10-blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)

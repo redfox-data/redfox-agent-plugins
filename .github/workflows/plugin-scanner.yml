@@ -1,0 +1,29 @@
+name: Plugin Security Scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Constrained by design: read-only, no secrets, no network probing.
+# See https://github.com/redfox-data/awesome-ai-plugins/blob/main/SCANNER_GUIDE.md
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      # Pinned to immutable commit SHAs (never mutable tags).
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      # HOL AI Plugin Scanner. plugin_dir "." auto-detects this multi-plugin
+      # marketplace repo and scans every entry under ./plugins/...
+      - uses: hashgraph-online/ai-plugin-scanner-action@caba2e96aa8ad2feb6cf6fca52442b52e22e779f # v1.2.635
+        with:
+          plugin_dir: "."
+          min_score: 80
+          fail_on_severity: high
