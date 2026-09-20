@@ -22,7 +22,7 @@ jobs:
 
       # HOL AI Plugin Scanner. plugin_dir "." auto-detects this multi-plugin
       # marketplace repo and scans every entry under ./plugins/...
-      - uses: hashgraph-online/ai-plugin-scanner-action@caba2e96aa8ad2feb6cf6fca52442b52e22e779f # v1.2.635
+      - uses: hashgraph-online/ai-plugin-scanner-action@1c7b18e191376dd17550d4bff41fd8c9f71e4ca8 # v1.2.691
         with:
           plugin_dir: "."
           min_score: 80
