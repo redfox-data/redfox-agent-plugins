@@ -28,6 +28,7 @@
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#E1306C",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": ["Watermark-free Instagram Reel and video downloader"],
     "websiteURL": "https://redfox.hk/",

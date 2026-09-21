@@ -29,6 +29,7 @@
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#F59E0B",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Extract text from PDFs and images with format preservation and table detection"

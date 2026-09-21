@@ -28,6 +28,7 @@
     "category": "Creative",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#10A37F",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Text-to-image and image-to-image generation powered by GPT-image-2"

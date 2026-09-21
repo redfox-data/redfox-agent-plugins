@@ -28,6 +28,7 @@
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#FF0000",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Watermark-free YouTube video downloader with multi-resolution direct links"

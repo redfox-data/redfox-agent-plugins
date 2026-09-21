@@ -28,6 +28,7 @@
     "category": "Creative",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#7C3AED",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Text-to-video generation with resolution, aspect ratio and duration control"

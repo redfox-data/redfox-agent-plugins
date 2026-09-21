@@ -29,6 +29,7 @@
     "category": "Data Analysis",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#3B82F6",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Cross-platform trending search across X, TikTok and YouTube in one query"

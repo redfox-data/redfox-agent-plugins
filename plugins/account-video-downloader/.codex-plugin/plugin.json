@@ -30,6 +30,7 @@
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#8B5CF6",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Batch-download all videos from an account's homepage (YouTube, TikTok, Douyin, Kuaishou, Bilibili)"

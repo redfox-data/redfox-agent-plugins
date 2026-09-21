@@ -28,6 +28,7 @@
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
     "brandColor": "#FF0000",
+    "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel"
