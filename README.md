@@ -77,7 +77,8 @@ See [docs/API_KEY.md](docs/API_KEY.md) for details.
 
 ```bash
 codex plugin marketplace add redfox-data/redfox-agent-plugins
-codex plugin install youtube-video-downloader
+codex plugin add youtube-video-downloader@redfox-agent-plugins
+codex plugin list -m redfox-agent-plugins --available --json
 ```
 
 Or clone manually:
