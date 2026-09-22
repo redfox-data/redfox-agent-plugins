@@ -44,4 +44,4 @@ https://redfox.hk/pricing for current rates and free-tier quotas.
 ## Support
 
 - Docs: https://redfox.hk/skills
-- Email: support@redfox.hk
+- Email: redfoxdata@proton.me

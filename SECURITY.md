@@ -15,7 +15,7 @@ in the next tagged release.
 
 Please do **not** open a public issue for security vulnerabilities.
 
-Email **support@redfox.hk** with:
+Email **redfoxdata@proton.me** with:
 
 - the affected plugin ID(s) and commit SHA
 - reproduction steps or a proof of concept

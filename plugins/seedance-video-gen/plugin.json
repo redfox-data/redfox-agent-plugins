@@ -5,10 +5,10 @@
   "description": "Text-to-video generation with resolution, aspect ratio and duration control",
   "author": {
     "name": "Redfox Data",
-    "email": "support@redfox.hk",
+    "email": "redfoxdata@proton.me",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/seedance-video-gen?source=agent_plugins",
+  "homepage": "https://redfox.hk/skills",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [

@@ -4,10 +4,10 @@
   "description": "Watermark-free TikTok video downloader with batch support",
   "author": {
     "name": "Redfox Data",
-    "email": "support@redfox.hk",
+    "email": "redfoxdata@proton.me",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/tiktok-video-downloader?source=agent_plugins",
+  "homepage": "https://redfox.hk/skills",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -33,8 +33,7 @@
       "Watermark-free TikTok video downloader with batch support"
     ],
     "websiteURL": "https://redfox.hk/",
-    "privacyPolicyURL": "https://redfox.hk/privacy",
-    "termsOfServiceURL": "https://redfox.hk/terms",
+    "termsOfServiceURL": "https://redfox.hk/enterprise",
     "screenshots": []
   }
 }

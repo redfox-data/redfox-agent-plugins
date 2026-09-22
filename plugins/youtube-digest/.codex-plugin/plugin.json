@@ -4,10 +4,10 @@
   "description": "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel",
   "author": {
     "name": "Redfox Data",
-    "email": "support@redfox.hk",
+    "email": "redfoxdata@proton.me",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/youtube-digest?source=agent_plugins",
+  "homepage": "https://redfox.hk/skills",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -34,8 +34,7 @@
       "Extract YouTube video transcripts (subtitles/voice-over) as clean text or Excel"
     ],
     "websiteURL": "https://redfox.hk/",
-    "privacyPolicyURL": "https://redfox.hk/privacy",
-    "termsOfServiceURL": "https://redfox.hk/terms",
+    "termsOfServiceURL": "https://redfox.hk/enterprise",
     "screenshots": []
   }
 }

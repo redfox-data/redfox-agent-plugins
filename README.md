@@ -168,4 +168,4 @@ redfox-agent-plugins/
 
 - Website: https://redfox.hk/?source=agent_plugins
 - Skills directory: https://redfox.hk/skills/?source=agent_plugins
-- Email: support@redfox.hk
+- Email: redfoxdata@proton.me

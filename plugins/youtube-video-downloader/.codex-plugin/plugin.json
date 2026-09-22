@@ -4,10 +4,10 @@
   "description": "Watermark-free YouTube video downloader with multi-resolution direct links",
   "author": {
     "name": "Redfox Data",
-    "email": "support@redfox.hk",
+    "email": "redfoxdata@proton.me",
     "url": "https://redfox.hk"
   },
-  "homepage": "https://redfox.hk/skills/youtube-video-downloader?source=agent_plugins",
+  "homepage": "https://redfox.hk/skills",
   "repository": "https://github.com/redfox-data/redfox-agent-plugins",
   "license": "MIT",
   "keywords": [
@@ -34,8 +34,7 @@
       "Watermark-free YouTube video downloader with multi-resolution direct links"
     ],
     "websiteURL": "https://redfox.hk/",
-    "privacyPolicyURL": "https://redfox.hk/privacy",
-    "termsOfServiceURL": "https://redfox.hk/terms",
+    "termsOfServiceURL": "https://redfox.hk/enterprise",
     "screenshots": []
   }
 }
